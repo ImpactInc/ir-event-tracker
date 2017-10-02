@@ -21,7 +21,7 @@ end
 After run `pod install`, the sdk will be downloaded and installed.
 
 ### Install Manually ###
-Simply download the latest released zip from our [relase page](https://github.com/...). Unzip and copy it into your project tree. Remember add the *EventTracker/include* to your project's header search path, and add *libEventTracker.a* in the **Link Binary With Libraries** setting.
+Simply download the latest released zip from our [relase page](https://github.com/ImpactInc/ir-event-tracker/releases). Unzip and copy it into your project tree. Remember add the *EventTracker/include* to your project's header search path, and add *libEventTracker.a* in the **Link Binary With Libraries** setting.
 
 ## 3. Setup Event Tracker in Your App ##
 Include the `EventTracker.h` header in your source code, only include `Item.h`when you need to submit item level data (will be explained later in this documentation).
@@ -146,4 +146,4 @@ Item *item2 = [[Item alloc] init];
 [[EventTracker sharedManager] submit:itemEvent withItemArray:itemArray];
 ```
 
-To see a detailed example of using cocoapods to integrate with Event Tracker library, please check out our open-sourced [demo app](https://github.com/...)
+To see a detailed example of using cocoapods to integrate with Event Tracker library, please check out our open-sourced [demo app](https://github.com/ImpactInc/ir-event-tracker-demoapp)

@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
                    An iOS SDK that helps our partners to track various events in their
                    mobile apps.
                    DESC
-  s.homepage     = "http://developer.impactradius.com"
+  s.homepage     = "https://github.com/ImpactInc/ir-event-tracker"
   s.license       = { :type => "Copyright", :text => "Copyright (c) 2017 Impact Radius. All rights reserved." }
   s.author    = "Impact Radius Inc."
   s.ios.deployment_target     = "6.0"

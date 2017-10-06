@@ -12,9 +12,9 @@
 
 @interface Item : NSObject
 
-- (void) setAmount:(NSString *)amt; // Amount
 - (void) setQuantity:(NSString *)qty; // Quantity
 - (void) setCategory:(NSString *)cat; // Category
+- (void) setSubTotal:(NSString *) subTotal;
 - (void) setSku:(NSString *)sku;
 - (void) setRebate:(NSString *)rebate;
 - (void) setName:(NSString *)name;

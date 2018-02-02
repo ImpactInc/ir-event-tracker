@@ -20,15 +20,6 @@ end
 
 After run `pod install`, the sdk will be downloaded and installed.
 
-### Install via carthage ###
-This libaray can also be installed via carthage. Simply include the following line in your project Cartfile:
-
-```objective-c
-binary "https://raw.githubusercontent.com/ImpactInc/ir-event-tracker/master/carthage.json" ~> 1.5.0
-```
-
-For more details as to how to use carthage for dependency management, please see [carthage project](https://github.com/Carthage/Carthage).
-
 ### Install Manually ###
 Simply download the latest released zip from our [relase page](https://github.com/ImpactInc/ir-event-tracker/releases). Unzip and copy it into your project tree. Also add the *EventTracker/* to your project's header search path, and add *libEventTracker.a* in the **Link Binary With Libraries** setting.
 

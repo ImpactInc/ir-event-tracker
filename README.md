@@ -10,7 +10,7 @@ This library is compatible with applications built for iOS 6.0 or later.
 ## 2. Install SDK ##
 
 ### Install via Cocoapods ###
-The pre-built library is publshed on [cocoapods](https://link_to_cocoapods/). Add the following block to your Podfile:
+The pre-built library is publshed on [cocoapods.org](https://cocoapods.org/). Add the following block to your Podfile:
 
 ```objective-c
 target 'my app' do
